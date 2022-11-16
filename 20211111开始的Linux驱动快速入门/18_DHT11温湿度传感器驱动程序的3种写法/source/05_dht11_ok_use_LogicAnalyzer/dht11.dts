@@ -1,0 +1,12 @@
+
+
+   dht11 {  /* for stm32mp157 */
+        compatible = "100ask,dht11";
+        gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
+    };
+
+   dht11 {  /* for imx6ull */
+        compatible = "100ask,dht11";
+        gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+    };
+

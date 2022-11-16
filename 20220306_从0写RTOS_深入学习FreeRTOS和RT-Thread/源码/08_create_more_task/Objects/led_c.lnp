@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\start.o"
+".\objects\uart.o"
+".\objects\string.o"
+".\objects\init.o"
+".\objects\exception.o"
+".\objects\systick.o"
+".\objects\led.o"
+".\objects\task.o"
+--strict --scatter ".\Objects\led_c.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\led_c.map" -o .\Objects\led_c.axf

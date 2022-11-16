@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_STM32F103_Keil -I ..\Common\include -I ..\..\Source\include -I .\STM32F10xFWLib\inc
+-I.\RTE\_Target_1
+-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="527" -DSTM32F10X_MD -DRVDS_ARMCM3_LM3S102
+-o .\heap_2.o --omf_browse .\heap_2.crf --depend .\heap_2.d "..\..\Source\portable\MemMang\heap_2.c"

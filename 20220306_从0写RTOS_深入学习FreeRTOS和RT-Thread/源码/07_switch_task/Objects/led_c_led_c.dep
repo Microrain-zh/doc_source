@@ -1,0 +1,24 @@
+Dependencies for Project 'led_c', Target 'led_c': (DO NOT MODIFY !)
+F (.\main.c)(0x62246CE4)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (uart.h)(0x5FE1B5C9)
+I (string.h)(0x5FE1B5C9)
+I (task.h)(0x62247963)
+F (.\start.s)(0x62247998)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "STM32F10X_HD SETA 1"--list .\listings\start.lst --xref -o .\objects\start.o --depend .\objects\start.d)
+F (.\uart.c)(0x5FE1B5C9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (uart.h)(0x5FE1B5C9)
+F (.\string.c)(0x5FE1B5C9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\string.o --omf_browse .\objects\string.crf --depend .\objects\string.d)
+I (uart.h)(0x5FE1B5C9)
+F (.\init.c)(0x5FE1B5C9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+F (.\exception.c)(0x5FE1B5C9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\exception.o --omf_browse .\objects\exception.crf --depend .\objects\exception.d)
+I (uart.h)(0x5FE1B5C9)
+I (exception.h)(0x5FE1B5C9)
+F (.\systick.c)(0x62247B0C)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (uart.h)(0x5FE1B5C9)
+I (exception.h)(0x5FE1B5C9)
+I (systick.h)(0x5FE1B5C9)
+I (led.h)(0x5FE1B5C9)
+I (task.h)(0x62247963)
+F (.\systick.h)(0x5FE1B5C9)()
+F (.\led.c)(0x5FE1B5C9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+F (.\task.c)(0x6224795C)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_led_c-IC:\Users\weidongshan\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DSTM32F10X_HD-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
+I (task.h)(0x62247963)

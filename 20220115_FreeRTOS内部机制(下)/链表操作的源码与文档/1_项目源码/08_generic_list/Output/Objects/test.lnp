@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\output\objects\main.o"
+".\output\objects\usart.o"
+".\output\objects\system_stm32f1xx.o"
+".\output\objects\startup_stm32f103xb.o"
+".\output\objects\stm32f1xx_hal.o"
+".\output\objects\stm32f1xx_hal_cortex.o"
+".\output\objects\stm32f1xx_hal_dma.o"
+".\output\objects\stm32f1xx_hal_rcc.o"
+".\output\objects\stm32f1xx_hal_gpio.o"
+".\output\objects\stm32f1xx_hal_uart.o"
+--strict --scatter ".\Output\Objects\test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Output\Listings\test.map" -o .\Output\Objects\test.axf

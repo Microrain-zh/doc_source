@@ -1,0 +1,104 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 PRESERVE8
+    3 00000000                 THUMB
+    4 00000000         
+    5 00000000         
+    6 00000000         ; Vector Table Mapped to Address 0 at Reset
+    7 00000000                 AREA             RESET, DATA, READONLY
+    8 00000000                 EXPORT           __Vectors
+    9 00000000         
+   10 00000000 00000000 
+                       __Vectors
+                               DCD              0
+   11 00000004 00000000        DCD              Reset_Handler ; Reset Handler
+   12 00000008         
+   13 00000008                 AREA             |.text|, CODE, READONLY
+   14 00000000         
+   15 00000000         ; Reset handler
+   16 00000000         Reset_Handler
+                               PROC
+   17 00000000                 EXPORT           Reset_Handler             [WEAK
+]
+   18 00000000                 IMPORT           main
+   19 00000000         
+   20 00000000 F8DF D004       LDR              SP, =(0x20000000+0x10000)
+   21 00000004 F7FF FFFE       BL               main
+   22 00000008         
+   23 00000008                 ENDP
+   24 00000008         
+   25 00000008                 END
+              20010000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\start.d -o.\objects\start.o -ID:\Keil\Pack\Keil\STM32F1x
+x_DFP\2.3.0\Device\Include -ID:\Keil\Core\ARM\CMSIS\Include --predefine="__UVIS
+ION_VERSION SETA 532" --predefine="STM32F10X_HD SETA 1" --list=.\listings\start
+.lst start.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 7 in file start.s
+   Uses
+      None
+Comment: RESET unused
+__Vectors 00000000
+
+Symbol: __Vectors
+   Definitions
+      At line 10 in file start.s
+   Uses
+      At line 8 in file start.s
+Comment: __Vectors used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 13 in file start.s
+   Uses
+      None
+Comment: .text unused
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 16 in file start.s
+   Uses
+      At line 11 in file start.s
+      At line 17 in file start.s
+
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+main 00000000
+
+Symbol: main
+   Definitions
+      At line 18 in file start.s
+   Uses
+      At line 21 in file start.s
+Comment: main used once
+1 symbol
+339 symbols in table

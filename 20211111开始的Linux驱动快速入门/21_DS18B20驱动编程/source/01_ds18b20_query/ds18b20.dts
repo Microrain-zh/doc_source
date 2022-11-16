@@ -1,0 +1,12 @@
+
+
+   ds18b20 {  /* for stm32mp157 */
+        compatible = "100ask,ds18b20";
+        gpios = <&gpioa 13 GPIO_ACTIVE_HIGH>;
+    };
+
+   ds18b20 {  /* for imx6ull */
+        compatible = "100ask,ds18b20";
+        gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+    };
+

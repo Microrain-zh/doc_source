@@ -1,0 +1,8 @@
+
+
+   sr501 {
+        compatible = "100ask,sr501";
+        gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+    };
+
+
